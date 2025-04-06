@@ -283,3 +283,13 @@ logging:
 在本專案的開發過程中，我們參考了 [iKala/ievals](https://github.com/iKala/ievals) 專案中的 pattern 設計方式，對我們的設計方向提供了寶貴的啟發，特此致謝。
 
 感謝 [Simon Liu](https://simonliuyuwei-4ndgcf4.gamma.site/) 提供了 Colab 示範範例，讓我們能更直觀地展示工具的使用方式與應用場景。
+
+
+
+## install
+export PATH=$PATH:$HOME/.local/
+uv venv twinkle_eval --python 3.12 && source source twinkle_eval/bin/activate && uv pip install --upgrade pip
+uv pip install pyyaml pandas requests openai fastparquet huggingface-hub
+
+
+
