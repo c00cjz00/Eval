@@ -288,7 +288,7 @@ logging:
 
 ## install
 export PATH=$PATH:$HOME/.local/
-uv venv twinkle_eval --python 3.12 && source source twinkle_eval/bin/activate && uv pip install --upgrade pip
+uv venv twinkle_eval --python 3.12 && source twinkle_eval/bin/activate && uv pip install --upgrade pip
 uv pip install pyyaml pandas requests openai fastparquet huggingface-hub
 
 
